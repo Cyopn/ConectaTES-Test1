@@ -40,14 +40,24 @@
                     <input type="file" name="image" accept="image/x-png,image/gif,image/jpeg,image/jpg" required>
                 </div>
                 <div class="field button">
-                    <input type="submit" name="submit" value="Continuar" onclick="cn()">
+                    <input type="submit" name="submit" value="Continuar" onclick="pop()">
                 </div>
             </form>
             <div class="link">¿Ya te has registrado? <a href="login.html">Inicia sesion</a></div>
         </section>
     </div>
 
+
+    <div class="overlay" id="overlay">
+        <div class="popup" id="popup">
+            <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+            <h3>Contenido aun no disponible</h3>
+        </div>
+    </div>
+
+
     <script src="js/script.js"></script>
+    <script src="js/unsee-psw.js"></script>
 </body>
 
 </html>

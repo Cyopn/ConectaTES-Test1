@@ -16,3 +16,7 @@ function pop(){
     overlay.classList.add('active');
     popup.classList.add('active');
 }
+
+function down(){
+    window.open("./download/app-debug.apk", "download")
+}
